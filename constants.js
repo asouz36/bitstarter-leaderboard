@@ -21,16 +21,16 @@
     - http://webdesign.about.com/od/localization/l/blhtmlcodes-cur.htm#codes
 */
 var Constants = {
-  APP_NAME: "Bitstarter", 
-  FUNDING_TARGET: 10.00,
-  FUNDING_UNIT_SYMBOL: "mBTC",
-  FUNDING_SI_SCALE: 1000,
-  FUNDING_END_DATE: new Date("September 8, 2013"),
-  PRODUCT_NAME: "Product: Development Version",
-  PRODUCT_SHORT_DESCRIPTION: "One sentence description.",
-  TWITTER_USERNAME: "nodejs",
-  TWITTER_TWEET: "This student crowdfunder looks interesting.",
-  COINBASE_PREORDER_DATA_CODE: "13b56883764b54e6ab56fef3bcc7229c",
+  APP_NAME: "n&oacute;", 
+  FUNDING_TARGET: 100.00,
+  FUNDING_UNIT_SYMBOL: "BTC",
+  FUNDING_SI_SCALE: 1,
+  FUNDING_END_DATE: new Date("February 28, 2014"),
+  PRODUCT_NAME: "See every movement, measure everything.",
+  PRODUCT_SHORT_DESCRIPTION: "n&oacute; for performing arts and sports",
+  TWITTER_USERNAME: "noh_connect",
+  TWITTER_TWEET: "This crowdfunder looks interesting.",
+  COINBASE_PREORDER_DATA_CODE: "0efb96d87b7ba637adc6d2461dc858e9",
   days_left: function() {
       return Math.max(Math.ceil((this.FUNDING_END_DATE - new Date()) / (1000*60*60*24)), 0);
   }
